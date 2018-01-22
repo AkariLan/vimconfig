@@ -1,0 +1,4 @@
+enter vim
+:e $VIMRUNTIME/syntax/json.vim
+:g/if has('conceal')/s//& \&\& 0/
+:wq
